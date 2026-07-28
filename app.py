@@ -72,7 +72,7 @@ def db_create():
             cur.close()
 
 @app.route('/db_insert')
-def db_create():
+def db_insert():
     conn = None
     cur = None
     try:
